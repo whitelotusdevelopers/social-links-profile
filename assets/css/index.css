@@ -1,0 +1,81 @@
+*, ::after, ::before {
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body {
+    font-size: 87.5%;
+}
+main #social-links {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #social-links .box {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    width: min(87.2%, 384px);
+    padding: 24px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+main #social-links .box img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-inline: auto;
+}
+main #social-links .box h2 {
+    margin-top: 32px;
+    margin-bottom: 18px;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+main #social-links .box p:first-of-type {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 32px;
+}
+main #social-links .box p:last-of-type {
+    margin-bottom: 26px;
+}
+main #social-links .box p:last-of-type q::after,
+main #social-links .box p:last-of-type q::before {
+    content: "\"";
+}
+main #social-links .box .links {
+    list-style: none;
+}
+main #social-links .box .links li {
+    margin-top: 16px;
+}
+main #social-links .box .links li a {
+    background-color: hsl(0, 0%, 20%);
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    padding: 18px;
+    font-weight: bold;
+    transition: background-color 200ms linear;
+}
+main #social-links .box .links li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+main #social-links .box,
+main #social-links .box .links li a {
+    border-radius: 8px;
+}
+@media (min-width: 768px) {
+    main #social-links .box {
+        padding: 40px;
+    }
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}

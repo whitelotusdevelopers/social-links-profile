@@ -1,0 +1,28 @@
+mobile:
+box_width: 327px
+padding: 24px
+
+
+desktop:
+box_width: 384px
+padding: 40px
+
+
+all screen:
+img:
+width: 90px
+height: 90px
+
+heading:
+height: 18px
+margin_top: 32px
+margin_bottom: 18px
+
+paragraph:
+margin_bottom: 32px
+
+q:
+margin_bottom: 26px
+
+link:
+margin: 16px
